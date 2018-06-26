@@ -11,8 +11,9 @@ def hello_t(name_array)
     end
 
   return name_array
-else
-  puts "Hey! No block was given!"
+  else
+    puts "Hey! No block was given!"
+  end
 end
 
 # call your method here!

@@ -7,6 +7,7 @@ def hello_t(name_array)
     yield name_array[i]
     i = i + 1
   end
+  
   return name_array
 end
 
